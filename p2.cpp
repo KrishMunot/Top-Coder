@@ -14,6 +14,10 @@ class NumberGameAgain{
 			return false;
 		}
 		
+		long long solve(int k, vector<long long> table){
+			vector<bool> isValid(table.size(),true);
+		}
+		
 
 int main(){
 	
