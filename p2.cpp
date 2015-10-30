@@ -35,6 +35,13 @@ class NumberGameAgain{
 						table[i]>>=1;
 					}
 
+					sum+= ((((long long)1)<<(k-l+1))-1);
+				}
+			}
+			return ((((long long)1)<<(k))-2)-sum;
+		}
+};
+
 int main(){
 	
 }
