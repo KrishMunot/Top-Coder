@@ -25,6 +25,15 @@ class NumberGameAgain{
 				}
 		}
 		
+		long long sum=0;
+			for(int i=0;i<table.size();i++){
+				if(isValid[i]){
+					int l=0;
+					while(table[i])
+					{
+						l++;
+						table[i]>>=1;
+					}
 
 int main(){
 	
