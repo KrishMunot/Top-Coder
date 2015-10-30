@@ -43,5 +43,7 @@ class NumberGameAgain{
 };
 
 int main(){
+	vector<long long> table ={2,4,6};
+	cout<<NumberGameAgain().solve(3,table);
 	
 }
